@@ -6,6 +6,8 @@
     <title>Leilani Najma</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
@@ -36,19 +38,25 @@
             <h2>WELCOME TO MY WEBSITE</h2>
         </section>
 
-        <!--about-->
+        <!-- ABOUT -->
         <section id="about" class="about">
             <div class="about-section">
                 <div class="about-text">
-                    <h2>ABOUT</h2>
-                    <p>Halo, Saya Leilani Najma Rachmawati. Saya merupakan seorang mahasiswa di UPN "Veteran" Jatim dan sedang menempuh perkuliahan di semester 4 pada prodi Sistem Informasi. Saya pribadi sangat menyukai hal-hal baru, selalu ingin belajar, dan senang berbagi cerita serta pengalaman dalam perjalanan hidup saya.</p>
-                    <p>Sejak kecil, saya memiliki ketertarikan pada seni. Saya suka menuangkan pemikiran dan imajinasi melalui gambar, terutama yang bertema pemandangan, anime, dan berbagai ilustrasi kreatif lainnya. Menggambar bagi saya bukan hanya sekadar hobi, tetapi juga cara untuk mengekspresikan perasaan dan menangkap keindahan dari berbagai sudut pandang.</p>
+                    <h2 class="about-title">ABOUT</h2>
+                    <p class="about-intro">Halo, Saya</p>
+                    <p class="highlight">Leilani Najma Rachmawati</p>
+                    <p>
+                        Saya merupakan seorang mahasiswa di UPN "Veteran" Jatim dan sedang menempuh perkuliahan di semester 4 pada prodi Sistem Informasi. Saya pribadi sangat menyukai hal-hal baru, selalu ingin belajar, dan senang berbagi cerita serta pengalaman dalam perjalanan hidup saya.
+                    </p>
+                    <p>
+                        Sejak kecil, saya memiliki ketertarikan pada seni. Saya suka menuangkan pemikiran dan imajinasi melalui gambar, terutama yang bertema pemandangan, anime, dan berbagai ilustrasi kreatif lainnya. Menggambar bagi saya bukan hanya sekadar hobi, tetapi juga cara untuk mengekspresikan perasaan dan menangkap keindahan dari berbagai sudut pandang.
+                    </p>
                 </div>
                 <div class="about-image">
                     <img src="foto.jpg" alt="Foto Profil">
                 </div>
             </div>
-                
+        </section>
             
         <!-- Experience-->
         <section id="experience" class="experience">
@@ -56,9 +64,10 @@
         <h3>EXPERIENCE</h3>
         <ul>
             <div class="experience-item">Divisi Senior Pendamping - DIMENSI (GRADASI 2024)</div>
-            <div class="experience-item">Divisi Mentor - AKSI PKM 2024</div>
-            <div class="experience-item">Divisi Acara - Fasilkom LEGO 2024</div>
-
+                <div class="experience-item">Divisi Mentor - AKSI PKM 2024
+                    </div>
+                <div class="experience-item">Divisi Acara - Fasilkom LEGO 2024
+            </div>
         </ul>
     </div>
 </section>
@@ -73,7 +82,12 @@
             <a href="mailto:leilani.najma@gmail.com">leilani.najma@gmail.com</a><br>
             <a href="mailto:23082010052@student.upnjatim.ac.id">23082010052@student.upnjatim.ac.id</a>
             </p>            
-        <p><strong>Telepon:</strong> +6285233021301</p>
+            <p><strong>Telepon:</strong> +6285233021301</p>
+            <div class="logo">
+                <a href="https://www.instagram.com/lnr_nn/profilecard/?igsh=MWNteDU2dWF3Z2kx"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com/@leilaninjm7547?si=N_TTXwZmoEXd8Sff"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/leilani-najma-rachmawati-b1421a28b"><i class="fa-brands fa-linkedin"></i></a>
+            </div>            
             </div>
         </section>
     <!-- Footer -->
@@ -89,7 +103,7 @@
         * {
             padding: 0;
             margin: 0;
-            font-family: sans-serif;
+            font-family: 'Nunito', sans-serif;
             scroll-behavior: smooth; 
         }
         a {
@@ -167,66 +181,71 @@
         }
         section h3 {
             text-align: center;
-            padding:20px 0;
+            padding: 20px 0;
             color: #17357f;
-            margin-bottom: 20px
-        }
-            .about-section {
-            background-color: #2b4594; 
-            color: white; 
-            padding: 60px;
-            border-radius: 10px; 
-        }
-            .about-section h2 {
-            text-align: left;
-            font-size: 32px;
-            padding: 20px;
-            font-weight: bold;
-            color: hsl(0, 0%, 100%); 
-        }
-            .about-section p {
-            font-size: 15px;
-            line-height: 1.6;
-            text-align: left;
-            color: #ffffff; 
-            max-width: 800px; 
-        }
-            .about-image img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%; 
-            object-fit: cover; 
-            border: 3px solid #fff; 
+            margin-bottom: 15px;
+            font-size: 25px;
+            font-family: 'Nunito', sans-serif !important;
         }
         .about-section {
-            background-color: #2b4594; 
-            color: white; 
+            background-color: #0b1a46;
+            color: white;
             padding: 60px;
-            border-radius: 10px; 
-            display: flex; 
+            border-radius: 10px;
+            display: flex;
             align-items: center;
-            justify-content: space-between; 
-            gap: 20px; 
+            justify-content: space-between;
+            gap: 10px;
+            font-family: 'Nunito', sans-serif;
+        }
+        .about-title {
+            font-weight: 700;
+            font-size: 40px !important;
+            text-align: left;
+            color: #ffffff;
+        }
+        .about-intro {
+            font-size: 25px !important; 
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 2px !important; 
+        }
+        .highlight {
+            font-size: 28px !important;
+            font-weight: 700;
+            color: #00ddff !important;
+            margin-top: 0 !important;
+        }
+        .about-text p {
+            font-size: 15px;
+            line-height: 1.4; 
+            text-align: left;
+            color: #ffffff;
+            max-width: 800px;
+            margin-top: 20px; 
+        }
+
+        .about-image img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00ddff;
         }
         .about-text {
             flex: 1; 
         }
-        .about-image img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%; 
-            object-fit: cover; 
-            border: 3px solid #fff; 
-        }
-            .experience ul {
+
+        .experience ul {
             list-style: none;
             text-align: center;
             padding: 0;
         }
         .experience-item {
-            background-color: #17357f; 
-            color: white !important; 
-            font-weight: bold;
+            background-color: #23396b; 
+            color: #ffffff !important; 
+            font-weight: 700;
+            font-size: 20px;
             padding: 10px;
             border-radius: 5px;
             text-align: center;
@@ -236,6 +255,7 @@
         .contact p {
             text-align: center;
             color: #666;
+            padding-bottom: 15px;
         }
         .contact a {
             color: blue;
@@ -244,6 +264,36 @@
         .contact a:hover {
         color: darkblue;
         }
+        .logo {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        }
+
+        .logo a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: #131e38;
+        border-radius: 60%;
+        border: 3px solid #99dbff;
+        text-decoration: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, transform 0.2s;
+        }
+        .logo a:hover {
+            background-color: #ffffff;
+            transform: scale(1.1);
+        }
+        .logo a i {
+            font-size: 22px;
+            color: #00ddff;
+        }
+        .logo a:nth-child(1):hover i { color: #E4405F; } 
+        .logo a:nth-child(2):hover i { color: #FF0000; } 
+        .logo a:nth-child(3):hover i { color: #0077B5; } 
         footer {
         text-align: center;
         background: #0b1631;
